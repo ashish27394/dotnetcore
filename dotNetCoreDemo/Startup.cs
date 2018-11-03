@@ -26,39 +26,41 @@ namespace dotNetCoreDemo
                               IGreeter greeter,
                               ILogger<Startup> logger)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
+            //if (env.IsDevelopment())
+            //{
+            app.UseDeveloperExceptionPage();
+            //}
 
             //How middleware works at low level
-            app.Use(next =>
-            {
-                return async context =>
-                {
-                    logger.LogInformation("Request Information");
-                    if (context.Request.Path.StartsWithSegments("/mym"))
-                    {
-                        await context.Response.WriteAsync("Hit!!");
-                        logger.LogInformation("Request handled");
-                    }
-                    else
-                    {
-                        await next(context);
-                        logger.LogInformation("Response outgoing");
-                    }
-                };
-            });
+            //app.Use(next =>
+            //{
+            //    return async context =>
+            //    {
+            //        logger.LogInformation("Request Information");
+            //        if (context.Request.Path.StartsWithSegments("/mym"))
+            //        {
+            //            await context.Response.WriteAsync("Hit!!");
+            //            logger.LogInformation("Request handled");
+            //        }
+            //        else
+            //        {
+            //            await next(context);
+            //            logger.LogInformation("Response outgoing");
+            //        }
+            //    };
+            //});
 
             //This is welcome middleware 
             //This will invoke at path /wp
-            app.UseWelcomePage(new WelcomePageOptions
-            {
-                Path = "/wp"
-            });
+            //app.UseWelcomePage(new WelcomePageOptions
+            //{
+            //    Path = "/wp"
+            //});
 
             app.Run(async (context) =>
             {
+                throw new Exception("Error");
+
                 var greeting = greeter.GetMessageOfTheDay();
                 await context.Response.WriteAsync(greeting);
             });

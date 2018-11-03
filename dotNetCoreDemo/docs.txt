@@ -40,9 +40,19 @@ Injecting IConfigurable for getting value from
 appsettings instead of passing the constant value
 
 -------------------------------
-How middleware works
+*How middleware works
 
 It takes the http request and process it pass it another pipeline in the middleware
 Here we saw how Welcome Middleware works on specified path
 
 And how middle ware works on a low level
+
+--------------------------------
+*use of app.UseDeveloperExceptionPage();
+
+UseDeveloperExceptionPage() is a pipeline in middleware ,it just passed to the next pipeline in the middleware
+But when there is an error in the next pipeline then it gives the details of the error like Stack, Query, Cookies, Headers.
+
+It gives so much info that we should not use this in the production environment.
+
+
