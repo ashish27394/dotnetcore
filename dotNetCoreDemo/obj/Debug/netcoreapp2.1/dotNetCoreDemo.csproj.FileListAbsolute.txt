@@ -1,0 +1,14 @@
+C:\Users\ashish.panjwani\Desktop\dot net core\dotNetCoreDemo\dotNetCoreDemo\bin\Debug\netcoreapp2.1\dotNetCoreDemo.deps.json
+C:\Users\ashish.panjwani\Desktop\dot net core\dotNetCoreDemo\dotNetCoreDemo\bin\Debug\netcoreapp2.1\dotNetCoreDemo.runtimeconfig.json
+C:\Users\ashish.panjwani\Desktop\dot net core\dotNetCoreDemo\dotNetCoreDemo\bin\Debug\netcoreapp2.1\dotNetCoreDemo.runtimeconfig.dev.json
+C:\Users\ashish.panjwani\Desktop\dot net core\dotNetCoreDemo\dotNetCoreDemo\bin\Debug\netcoreapp2.1\dotNetCoreDemo.dll
+C:\Users\ashish.panjwani\Desktop\dot net core\dotNetCoreDemo\dotNetCoreDemo\bin\Debug\netcoreapp2.1\dotNetCoreDemo.pdb
+C:\Users\ashish.panjwani\Desktop\dot net core\dotNetCoreDemo\dotNetCoreDemo\obj\Debug\netcoreapp2.1\dotNetCoreDemo.csprojAssemblyReference.cache
+C:\Users\ashish.panjwani\Desktop\dot net core\dotNetCoreDemo\dotNetCoreDemo\obj\Debug\netcoreapp2.1\dotNetCoreDemo.csproj.CoreCompileInputs.cache
+C:\Users\ashish.panjwani\Desktop\dot net core\dotNetCoreDemo\dotNetCoreDemo\obj\Debug\netcoreapp2.1\dotNetCoreDemo.RazorAssemblyInfo.cache
+C:\Users\ashish.panjwani\Desktop\dot net core\dotNetCoreDemo\dotNetCoreDemo\obj\Debug\netcoreapp2.1\dotNetCoreDemo.RazorAssemblyInfo.cs
+C:\Users\ashish.panjwani\Desktop\dot net core\dotNetCoreDemo\dotNetCoreDemo\obj\Debug\netcoreapp2.1\dotNetCoreDemo.AssemblyInfoInputs.cache
+C:\Users\ashish.panjwani\Desktop\dot net core\dotNetCoreDemo\dotNetCoreDemo\obj\Debug\netcoreapp2.1\dotNetCoreDemo.AssemblyInfo.cs
+C:\Users\ashish.panjwani\Desktop\dot net core\dotNetCoreDemo\dotNetCoreDemo\obj\Debug\netcoreapp2.1\dotNetCoreDemo.RazorTargetAssemblyInfo.cache
+C:\Users\ashish.panjwani\Desktop\dot net core\dotNetCoreDemo\dotNetCoreDemo\obj\Debug\netcoreapp2.1\dotNetCoreDemo.dll
+C:\Users\ashish.panjwani\Desktop\dot net core\dotNetCoreDemo\dotNetCoreDemo\obj\Debug\netcoreapp2.1\dotNetCoreDemo.pdb
