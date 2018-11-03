@@ -57,6 +57,8 @@ namespace dotNetCoreDemo
             //    Path = "/wp"
             //});
 
+            app.UseStaticFiles();
+
             app.Run(async (context) =>
             {
                 var greeting = greeter.GetMessageOfTheDay();

@@ -86,3 +86,10 @@ and these appsetting.<environment_name>.json will override the appsetting.json f
 Here we giving example w.r.t development environment.
 
 --------------------------
+*Serve static files 
+By default dotNet core will not allow to show the static files.
+we need to use a middleware, 
+i.e. app.UseStaticFiles();
+it will serve the static files from root folder(By default) 
+
+
