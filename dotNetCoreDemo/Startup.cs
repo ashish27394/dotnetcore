@@ -26,10 +26,10 @@ namespace dotNetCoreDemo
                               IGreeter greeter,
                               ILogger<Startup> logger)
         {
-            //if (env.IsDevelopment())
-            //{
-            app.UseDeveloperExceptionPage();
-            //}
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+            }
 
             //How middleware works at low level
             //app.Use(next =>
@@ -59,10 +59,8 @@ namespace dotNetCoreDemo
 
             app.Run(async (context) =>
             {
-                throw new Exception("Error");
-
                 var greeting = greeter.GetMessageOfTheDay();
-                await context.Response.WriteAsync(greeting);
+                await context.Response.WriteAsync($"{greeting} : {env.EnvironmentName}");
             });
         }
     }

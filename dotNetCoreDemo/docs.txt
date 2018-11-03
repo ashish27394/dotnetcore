@@ -55,4 +55,25 @@ But when there is an error in the next pipeline then it gives the details of the
 
 It gives so much info that we should not use this in the production environment.
 
+----------------------------------------
+*environments in dotNet core
+
+dotNet core uses environments like development, production, staging, etc
+we can write different things for different environments 
+like UseDeveloperExceptionPage() only for developer environment
+
+*How these get set in dotnetcore
+
+There is a file in the Properties section i.e. launchSettings.json
+Normally there will be two profiles 
+1)IIS express
+2)Project Name(In this case, dotNetCoreDemo)
+
+Here we can change "ASPNETCORE_ENVIRONMENT" to any kind of environment and it will work
+accordingly
+
+we can run different profiles in the following way - 
+Two ways-
+1)Click the drop menu near the "IIS Express" there you can see the all the available profiles
+2)Click on the properties on the app and in the debug menu you can change the profile
 
