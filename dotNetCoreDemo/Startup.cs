@@ -57,8 +57,10 @@ namespace dotNetCoreDemo
             //    Path = "/wp"
             //});
 
-            app.UseDefaultFiles();
-            app.UseStaticFiles();
+            //app.UseDefaultFiles();
+            //app.UseStaticFiles();
+            app.UseFileServer();
+
 
             app.Run(async (context) =>
             {

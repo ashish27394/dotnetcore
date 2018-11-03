@@ -101,4 +101,8 @@ But here we are not giving b/c index.html is default by default
 Here order matters b/w app.UseDefaultFiles() and app.UseStaticFiles() 
 First you have to give default static file then it will load the the static file 
 
-
+*app.UseFileServer();
+we can use this middleware instead of app.UseStaticFiles() and app.UseDefaultFiles()
+b/c this middleware will use these two middleware.
+You can give the default file like this
+app.UseFileServer("abc.html");
