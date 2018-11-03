@@ -1,0 +1,23 @@
+﻿Configure method in the startup.cs configures the HTTP processing pipeline
+for asp.net core apps.
+That is, for every HTTP msg that arrives, it is the code inside of this
+Configure method that will define the components that respond to that 
+request.
+
+BuildWebHost is the method which will build the web server
+1)Will use Kestrel web server(cross platform)
+2)IIS integration(useful in the intranet apps)
+3)Logging which will be seen in output window in the VS
+4)IConfigurable service made available
+ -JSON file(appsettings.json)
+ -User secrets
+ -Environment variables
+ -Command line arguments
+
+The default file for configuration is appsettings.json
+create the file in root directory and you can get configures setting
+
+-environment variable can override the value in the appsettings.json
+-value given at comd can override both environment variable and
+appsettings.json values
+
