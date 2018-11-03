@@ -39,3 +39,10 @@ the Configure method
 Injecting IConfigurable for getting value from
 appsettings instead of passing the constant value
 
+-------------------------------
+How middleware works
+
+It takes the http request and process it pass it another pipeline in the middleware
+Here we saw how Welcome Middleware works on specified path
+
+And how middle ware works on a low level
