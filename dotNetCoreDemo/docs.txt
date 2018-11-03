@@ -21,3 +21,17 @@ create the file in root directory and you can get configures setting
 -value given at comd can override both environment variable and
 appsettings.json values
 
+-----------------------------------
+
+-If we are building our own custom services then we need 
+to register those services using ConfigureServices method
+
+startup class has two responsibilities 
+1)ConfigureServices method 
+-Gives you a place to register your own custom services 
+so that asp.net core can use those services and pass them 
+around not only to itself. if you want to customize how the asp.net  
+core framework behaves, but also to other to other areas of app like 
+the Configure method
+2)Configure method
+-For request pipeline
