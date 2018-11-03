@@ -92,4 +92,13 @@ we need to use a middleware,
 i.e. app.UseStaticFiles();
 it will serve the static files from root folder(By default) 
 
+*Give default static files
+For this we have to use app.UseDefaultFiles() middleware
+we can give the name of the static file like
+app.UseDefaultFiles("abc.html");
+But here we are not giving b/c index.html is default by default  
+
+Here order matters b/w app.UseDefaultFiles() and app.UseStaticFiles() 
+First you have to give default static file then it will load the the static file 
+
 
