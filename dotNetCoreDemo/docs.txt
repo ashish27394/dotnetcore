@@ -35,3 +35,7 @@ core framework behaves, but also to other to other areas of app like
 the Configure method
 2)Configure method
 -For request pipeline
+
+Injecting IConfigurable for getting value from
+appsettings instead of passing the constant value
+
